@@ -21,8 +21,8 @@ public class Curso {
     @Column(nullable = false)
     private String nombre;
 
-    @Column(nullable = false)
-    private String categoria;
+    @Enumerated(EnumType.STRING)
+    private Categoria categoria;
 
     @OneToMany(mappedBy = "curso")
     private List<Topico> topicos;

@@ -52,6 +52,3 @@ CREATE TABLE respuesta (
     FOREIGN KEY (topico_id) REFERENCES topico(id),
     FOREIGN KEY (autor_id) REFERENCES usuario(id)
 );
-
-
-

@@ -19,8 +19,8 @@ public class Perfil {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @Column(nullable = false)
-    private String nombre;
+    @Enumerated(EnumType.STRING)
+    private NombrePerfil nombre;
 
     @ManyToMany(mappedBy = "perfiles")
     private Set<Usuario> usuarios = new HashSet<>();
