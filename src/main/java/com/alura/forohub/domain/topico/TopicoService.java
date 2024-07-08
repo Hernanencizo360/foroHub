@@ -4,7 +4,7 @@ import com.alura.forohub.domain.curso.Curso;
 import com.alura.forohub.domain.curso.CursoService;
 import com.alura.forohub.domain.usuario.Usuario;
 import com.alura.forohub.domain.usuario.UsuarioService;
-import com.alura.forohub.infra.ResourceNotFoundException;
+import com.alura.forohub.infra.error.ResourceNotFoundException;
 import jakarta.transaction.Transactional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;

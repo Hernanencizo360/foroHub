@@ -15,10 +15,10 @@ INSERT INTO curso (nombre, categoria) VALUES ('Español Avanzado', 'LENGUAJES');
 -- Inserciones para Perfil
 INSERT INTO perfil (nombre) VALUES ('ADMIN');
 INSERT INTO perfil (nombre) VALUES ('MODERADOR');
-INSERT INTO perfil (nombre) VALUES ('USER');
+INSERT INTO perfil (nombre) VALUES ('USUARIO');
 
 -- Inserción para Usuario con perfil de ADMIN
-INSERT INTO usuario (nombre, correo_electronico, contrasena) VALUES ('admin', 'admin@example.com', 'contrasenaTemporal');
+INSERT INTO usuario (nombre, correo_electronico, contrasena) VALUES ('admin', 'admin@example.com', '$2a$12$fb97.JSDlWCJMLYnF7M9f.VFpXdrvfbLLjEDyDCIOCkcMkvyOTfxq');
 
 -- Obténer el ID del usuario ADMIN insertado
 SET @adminUserId = (SELECT id FROM usuario WHERE correo_electronico = 'admin@example.com');

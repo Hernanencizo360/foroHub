@@ -1,4 +1,4 @@
-package com.alura.forohub.infra;
+package com.alura.forohub.infra.error;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

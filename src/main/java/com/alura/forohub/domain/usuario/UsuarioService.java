@@ -1,6 +1,6 @@
 package com.alura.forohub.domain.usuario;
 
-import com.alura.forohub.infra.ResourceNotFoundException;
+import com.alura.forohub.infra.error.ResourceNotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
