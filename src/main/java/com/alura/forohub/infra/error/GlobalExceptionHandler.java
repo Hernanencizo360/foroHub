@@ -25,7 +25,5 @@ public class GlobalExceptionHandler {
         var errores = ex.getFieldErrors().stream().map(DatosErroresValidacion::new).toList();
         return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(errores);
     }
-
-
 }
 

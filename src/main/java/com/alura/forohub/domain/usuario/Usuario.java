@@ -36,7 +36,7 @@ public class Usuario implements UserDetails {
     @Column(nullable = false)
     private String contrasena;
 
-    @ManyToMany
+    @ManyToMany(fetch = FetchType.EAGER)
     @JoinTable(
             name = "usuario_perfil",
             joinColumns = @JoinColumn(name = "usuario_id"),
