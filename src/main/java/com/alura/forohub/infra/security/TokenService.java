@@ -34,7 +34,7 @@ public class TokenService {
     }
 
     private Instant generarTiempoDeExpiracion(){
-        return LocalDateTime.now().plusHours(2).toInstant(ZoneOffset.of("-05:00"));
+        return LocalDateTime.now().plusHours(4).toInstant(ZoneOffset.of("-05:00"));
     }
 
     public String getUsernameDelToken(String token) {

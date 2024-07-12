@@ -36,7 +36,7 @@ public class Usuario implements UserDetails {
     @Column(nullable = false)
     private String contrasena;
 
-    @ManyToMany(fetch = FetchType.EAGER)
+    @ManyToMany(fetch = FetchType.EAGER, cascade = CascadeType.ALL)
     @JoinTable(
             name = "usuario_perfil",
             joinColumns = @JoinColumn(name = "usuario_id"),
@@ -44,10 +44,10 @@ public class Usuario implements UserDetails {
     )
     private Set<Perfil> perfiles = new HashSet<>();
 
-    @OneToMany(mappedBy = "autor")
+    @OneToMany(mappedBy = "autor", cascade = CascadeType.ALL, orphanRemoval = true)
     private List<Topico> topicos;
 
-    @OneToMany(mappedBy = "autor")
+    @OneToMany(mappedBy = "autor", cascade = CascadeType.ALL, orphanRemoval = true)
     private List<Respuesta> respuestas;
 
     @Override
