@@ -51,13 +51,21 @@ public class UsuarioService {
         return usuario.getId();
     }
 
+    @Transactional
     public DatosDetalleUsuario actualizarUsuario(Long id, DatosActualizacionUsuario dto) {
         Usuario usuario = usuarioRepository.findById(id)
                 .orElseThrow(() -> new ResourceNotFoundException("Usuario no encontrado con ID: " + id));
         usuario.setNombre(dto.nombre());
-        usuario.setCorreoElectronico(dto.correoElectronico());
-        usuario.setContrasena(passwordEncoder.encode(dto.contrasena()));
 
+        // Actualizar solo si el campo está presente en el DTO
+        if (dto.correoElectronico() != null && !dto.correoElectronico().isEmpty()) {
+            usuario.setCorreoElectronico(dto.correoElectronico());
+        }
+
+        if (dto.contrasena() != null && !dto.contrasena().isEmpty()) {
+            usuario.setContrasena(passwordEncoder.encode(dto.contrasena()));
+        }
+        
         usuarioRepository.save(usuario);
         return new DatosDetalleUsuario(usuario.getNombre(), usuario.getCorreoElectronico());
     }

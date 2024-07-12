@@ -77,17 +77,28 @@ public class TopicoService {
         Topico topico = topicoRepository.findById(id)
                 .orElseThrow(() -> new ResourceNotFoundException("Tópico no encontrado con ID: " + id));
 
-        Usuario autor = usuarioService.obtenerUsuarioPorId(datosActualizacion.autorId());
-        Curso curso = cursoService.obtenerCursoPorId(datosActualizacion.cursoId());
+        if (datosActualizacion.titulo() != null) {
+            topico.setTitulo(datosActualizacion.titulo());
+        }
 
-        topico.setTitulo(datosActualizacion.titulo());
-        topico.setMensaje(datosActualizacion.mensaje());
-        topico.setAutor(autor);
-        topico.setCurso(curso);
+        if (datosActualizacion.mensaje() != null) {
+            topico.setMensaje(datosActualizacion.mensaje());
+        }
+
+        if (datosActualizacion.autorId() != null) {
+            Usuario autor = usuarioService.obtenerUsuarioPorId(datosActualizacion.autorId());
+            topico.setAutor(autor);
+        }
+
+        if (datosActualizacion.cursoId() != null) {
+            Curso curso = cursoService.obtenerCursoPorId(datosActualizacion.cursoId());
+            topico.setCurso(curso);
+        }
 
         Topico topicoActualizado = topicoRepository.save(topico);
         return convertirADatosDetalleTopico(topicoActualizado);
     }
+
 
     @Transactional
     public void eliminarTopico(Long id) {
