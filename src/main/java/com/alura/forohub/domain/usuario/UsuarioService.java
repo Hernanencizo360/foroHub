@@ -5,7 +5,6 @@ import com.alura.forohub.domain.perfil.PerfilService;
 import com.alura.forohub.infra.error.EmailAlreadyExistsException;
 import com.alura.forohub.infra.error.ResourceNotFoundException;
 import com.alura.forohub.infra.error.UsuarioNotFoundException;
-import jakarta.persistence.EntityNotFoundException;
 import jakarta.transaction.Transactional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
@@ -65,7 +64,7 @@ public class UsuarioService {
         if (dto.contrasena() != null && !dto.contrasena().isEmpty()) {
             usuario.setContrasena(passwordEncoder.encode(dto.contrasena()));
         }
-        
+
         usuarioRepository.save(usuario);
         return new DatosDetalleUsuario(usuario.getNombre(), usuario.getCorreoElectronico());
     }
@@ -86,7 +85,7 @@ public class UsuarioService {
         Optional<Usuario> usuarioOptional = usuarioRepository.findById(id);
         if (usuarioOptional.isPresent()) {
             Usuario usuario = usuarioOptional.get();
-            // Desvincular perfiles de manera correcta
+
             for (Perfil perfil : usuario.getPerfiles()) {
                 perfil.getUsuarios().remove(usuario);
             }

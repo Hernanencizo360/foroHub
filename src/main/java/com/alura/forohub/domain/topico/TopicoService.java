@@ -36,7 +36,7 @@ public class TopicoService {
         topico.setMensaje(datos.mensaje());
         topico.setAutor(autor);
         topico.setCurso(curso);
-        topico.setStatus(EstadoTopico.ABIERTO); // Se establece un estado inicial.
+        topico.setStatus(EstadoTopico.ABIERTO);
         topico.setFechaCreacion(LocalDateTime.now());
 
         topicoRepository.save(topico);
@@ -93,6 +93,11 @@ public class TopicoService {
         if (datosActualizacion.cursoId() != null) {
             Curso curso = cursoService.obtenerCursoPorId(datosActualizacion.cursoId());
             topico.setCurso(curso);
+        }
+
+        if (datosActualizacion.status() != null) {
+            System.out.println("Estado recibido del dto: " + datosActualizacion.status());
+            topico.setStatus(datosActualizacion.status());
         }
 
         Topico topicoActualizado = topicoRepository.save(topico);
