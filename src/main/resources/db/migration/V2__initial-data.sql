@@ -15,7 +15,7 @@ INSERT INTO perfiles (nombre) VALUES ('ADMIN');
 INSERT INTO perfiles (nombre) VALUES ('MODERADOR');
 INSERT INTO perfiles (nombre) VALUES ('USUARIO');
 
--- Inserción para Usuario con perfil de ADMIN
+-- Inserción para Usuario con perfil de ADMIN --> contrasena = contrasenaTemporal
 INSERT INTO usuarios (nombre, correo_electronico, contrasena) VALUES ('admin', 'admin@example.com', '$2a$12$fb97.JSDlWCJMLYnF7M9f.VFpXdrvfbLLjEDyDCIOCkcMkvyOTfxq');
 
 -- Obténer el ID del usuario ADMIN insertado

@@ -4,6 +4,7 @@ import com.alura.forohub.domain.usuario.DatosActualizacionUsuario;
 import com.alura.forohub.domain.usuario.DatosDetalleUsuario;
 import com.alura.forohub.domain.usuario.DatosRegistroUsuario;
 import com.alura.forohub.domain.usuario.UsuarioService;
+import io.swagger.v3.oas.annotations.security.SecurityRequirement;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
@@ -16,6 +17,7 @@ import java.net.URI;
 
 @RestController
 @RequestMapping("/usuarios")
+@SecurityRequirement(name = "bearer-key")
 public class UsuarioController {
 
     @Autowired
