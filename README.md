@@ -1,8 +1,11 @@
 ![Logo](assets/banner.png)
 
-# ForoHub - API de Gestión de Foros
-- ![Static Badge](https://img.shields.io/badge/Versi%C3%B3n-1.0--SNAPSHOT-blue?style=for-the-badge)
-- ![Legal Disclaimer](https://img.shields.io/badge/License-MIT-succes?style=for-the-badge&logoColor=white&color=blue)
+<h1 align="center">ForoHub - API de Gestión de Foros</h1>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Versi%C3%B3n-1.0--SNAPSHOT-blue?style=for-the-badge" alt="Versión">
+  <img src="https://img.shields.io/badge/License-MIT-succes?style=for-the-badge&logoColor=white&color=blue" alt="Legal Disclaimer">
+</p>
 
 Versión: **1.0.0**
 Fecha de lanzamiento: **14 de julio 2024**
@@ -53,16 +56,6 @@ git clone https://github.com/Hernanencizo360/foroHub.git
 También puedes descargar el proyecto en formato ZIP haciendo clic en el botón "Code" en la parte superior de esta página y seleccionando "Download ZIP".
 
 Una vez que tengas el proyecto en tu máquina local, puedes descomprimir y abrir el archivo en tu entorno de desarrollo integrado (IDE) preferido.
-Si estás utilizando IntelliJ IDEA, sigue estos pasos:
-
-1. Si descargaste el proyecto en formato ZIP, descomprímelo primero. Puedes hacer esto haciendo clic derecho en el archivo ZIP y seleccionando la opción para extraer o descomprimir el archivo. Asegúrate de descomprimirlo en una ubicación fácilmente accesible en tu computadora.
-2. Abre IntelliJ IDEA.
-3. Selecciona "File" en la barra de menú.
-4. Haz clic en "Open" y navega hasta la ubicación donde descargaste el proyecto.
-5. Selecciona el directorio del proyecto descomprimido y haz clic en "Open".
-6. Una vez que se haya cargado el proyecto en IntelliJ IDEA, podrás explorar el código fuente, ejecutar la aplicación, además realizar cualquier modificación que desees.
-
-Si estás utilizando otro IDE o sistema operativo, los pasos para abrir el proyecto pueden variar.
 
 ## Ejecutar la Aplicación ▶️
 Para ejecutar la aplicación, sigue estos pasos:
@@ -89,30 +82,21 @@ Tambien puedes probar la API usando herramientas como [Insomnia](https://insomni
 
 ## Construido Con 🛠️
 
-![Spring Boot DevTools](https://img.shields.io/badge/Spring%20Boot%20DevTools-3.3.1-brightgreen?style=for-the-badge&logo=spring)
+<p align="center">
+  <img src="https://img.shields.io/badge/Spring%20Boot%20DevTools-3.3.1-brightgreen?style=for-the-badge&logo=spring" alt="Spring Boot DevTools">
+  <img src="https://img.shields.io/badge/Spring%20Boot-3.3.1-brightgreen?style=for-the-badge&logo=Spring" alt="Spring Boot">
+  <img src="https://img.shields.io/badge/Spring%20Web-3.3.1-brightgreen?style=for-the-badge&logo=spring" alt="Spring Web">
+  <img src="https://img.shields.io/badge/Spring%20Validation-3.3.1-brightgreen?style=for-the-badge&logo=spring" alt="Spring Validation">
+  <img src="https://img.shields.io/badge/Spring%20Security-3.3.1-brightgreen?style=for-the-badge&logo=spring-security" alt="Spring Security">
+  <img src="https://img.shields.io/badge/Java%20JWT-4.4.0-blue?style=for-the-badge&logo=json-web-tokens" alt="Java JWT">
+  <img src="https://img.shields.io/badge/Spring%20Data%20JPA-3.3.1-brightgreen?style=for-the-badge&logo=hibernate" alt="Spring Data JPA">
+  <img src="https://img.shields.io/badge/MySQL%20Connector-8.3.0-blue?style=for-the-badge&logo=mysql" alt="MySQL Connector">
+  <img src="https://img.shields.io/badge/Lombok-1.18.32-brightgreen?style=for-the-badge&logo=lombok" alt="Lombok">
+  <img src="https://img.shields.io/badge/Flyway-10.10.0-blue?style=for-the-badge&logo=flyway" alt="Flyway">
+  <img src="https://img.shields.io/badge/Springdoc%20OpenAPI-2.6.0-brightgreen?style=for-the-badge&logo=openapi-initiative" alt="Springdoc OpenAPI">
+  <img src="https://img.shields.io/badge/java-17.0.11-blue.svg?style=for-the-badge&logo=openjdk&logoColor=black" alt="Java">
+</p>
 
-![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.3.1-brightgreen?style=for-the-badge&logo=Spring)
-
-![Spring Web](https://img.shields.io/badge/Spring%20Web-3.3.1-brightgreen?style=for-the-badge&logo=spring)
-
-![Spring Validation](https://img.shields.io/badge/Spring%20Validation-3.3.1-brightgreen?style=for-the-badge&logo=spring)
-
-![Spring Security](https://img.shields.io/badge/Spring%20Security-3.3.1-brightgreen?style=for-the-badge&logo=spring-security)
-
-![Java JWT](https://img.shields.io/badge/Java%20JWT-4.4.0-blue?style=for-the-badge&logo=json-web-tokens)
-
-![Spring Data JPA](https://img.shields.io/badge/Spring%20Data%20JPA-3.3.1-brightgreen?style=for-the-badge&logo=hibernate)
-
-![MySQL Connector](https://img.shields.io/badge/MySQL%20Connector-8.3.0-blue?style=for-the-badge&logo=mysql)
-
-![Lombok](https://img.shields.io/badge/Lombok-1.18.32-brightgreen?style=for-the-badge&logo=lombok)
-
-![Flyway](https://img.shields.io/badge/Flyway-10.10.0-blue?style=for-the-badge&logo=flyway)
-
-
-![Springdoc OpenAPI](https://img.shields.io/badge/Springdoc%20OpenAPI-2.6.0-brightgreen?style=for-the-badge&logo=openapi-initiative)
-
-![Java](https://img.shields.io/badge/java-17.0.11-blue.svg?style=for-the-badge&logo=openjdk&logoColor=black)
 
 ## Hoja de Ruta 🗺️
 
@@ -143,11 +127,20 @@ Si tienes algún problema o sugerencia, por favor abre un problema [aquí](https
 
 ## Links de Interés 🔗
 
-[![GitHub](https://img.shields.io/badge/GitHub-000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Hernanencizo360)
-[![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/hernanencizo360)
-[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/hernanencizo360)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/hern%C3%A1n-encizo-b3b355229?original_referer=)
-
+<p align="center">
+  <a href="https://github.com/Hernanencizo360">
+    <img src="https://img.shields.io/badge/GitHub-000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
+  </a>
+  <a href="https://t.me/hernanencizo360">
+    <img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram">
+  </a>
+  <a href="https://www.instagram.com/hernanencizo360">
+    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram">
+  </a>
+  <a href="https://www.linkedin.com/in/hern%C3%A1n-encizo-b3b355229?original_referer=">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
+  </a>
+</p>
 
 ## Licencia 📄
 
