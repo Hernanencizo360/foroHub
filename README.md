@@ -131,6 +131,7 @@ o [Postman](https://www.postman.com/).
 ![Demo1](assets/Demo_Foro_1.gif)
 ![Demo2](assets/Demo_Foro_2.gif)
 ![Demo3](assets/Demo_Foro_3.gif)
+![Demo4](assets/Demo_Foro_4.gif)
 
 </details>
 
