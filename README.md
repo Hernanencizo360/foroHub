@@ -129,6 +129,7 @@ o [Postman](https://www.postman.com/).
   <summary>Mostrar contenido</summary>
 
 ![Demo1](assets/Demo_Foro_1.gif)
+![Demo2](assets/Demo_Foro_2.gif)
 
 </details>
 
