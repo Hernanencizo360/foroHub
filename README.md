@@ -128,6 +128,8 @@ o [Postman](https://www.postman.com/).
 <details>
   <summary>Mostrar contenido</summary>
 
+![Demo1](assets/Demo_Foro_1.gif)
+
 </details>
 
 ## Construido Con 🛠️
