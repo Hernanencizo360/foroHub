@@ -28,5 +28,4 @@ public class AutenticationService implements UserDetailsService {
         Hibernate.initialize(usuario.getTopicos());
         return usuario;
     }
-
 }

@@ -56,7 +56,6 @@ public class UsuarioService {
                 .orElseThrow(() -> new ResourceNotFoundException("Usuario no encontrado con ID: " + id));
         usuario.setNombre(dto.nombre());
 
-        // Actualizar solo si el campo está presente en el DTO
         if (dto.correoElectronico() != null && !dto.correoElectronico().isEmpty()) {
             usuario.setCorreoElectronico(dto.correoElectronico());
         }
@@ -97,6 +96,5 @@ public class UsuarioService {
             throw new UsuarioNotFoundException("Usuario no encontrado con id: " + id);
         }
     }
-
 }
 

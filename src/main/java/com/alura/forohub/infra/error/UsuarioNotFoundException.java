@@ -5,4 +5,3 @@ public class UsuarioNotFoundException extends RuntimeException {
         super(mensaje);
     }
 }
-
