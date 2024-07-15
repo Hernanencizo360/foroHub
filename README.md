@@ -1,11 +1,23 @@
 ![Logo](assets/banner.png)
 
-<h1 align="center">ForoHub - API de Gestión de Foros</h1>
-
 <p align="center">
   <img src="https://img.shields.io/badge/Versi%C3%B3n-1.0--SNAPSHOT-blue?style=for-the-badge" alt="Versión">
   <img src="https://img.shields.io/badge/License-MIT-succes?style=for-the-badge&logoColor=white&color=blue" alt="Legal Disclaimer">
+  <img src="https://img.shields.io/badge/Spring%20Boot%20DevTools-3.3.1-brightgreen?style=for-the-badge&logo=spring" alt="Spring Boot DevTools">
+  <img src="https://img.shields.io/badge/Spring%20Boot-3.3.1-brightgreen?style=for-the-badge&logo=Spring" alt="Spring Boot">
+  <img src="https://img.shields.io/badge/Spring%20Web-3.3.1-brightgreen?style=for-the-badge&logo=spring" alt="Spring Web">
+  <img src="https://img.shields.io/badge/Spring%20Validation-3.3.1-brightgreen?style=for-the-badge&logo=spring" alt="Spring Validation">
+  <img src="https://img.shields.io/badge/Spring%20Security-3.3.1-brightgreen?style=for-the-badge&logo=spring-security" alt="Spring Security">
+  <img src="https://img.shields.io/badge/Java%20JWT-4.4.0-blue?style=for-the-badge&logo=json-web-tokens" alt="Java JWT">
+  <img src="https://img.shields.io/badge/Spring%20Data%20JPA-3.3.1-brightgreen?style=for-the-badge&logo=hibernate" alt="Spring Data JPA">
+  <img src="https://img.shields.io/badge/MySQL%20Connector-8.3.0-blue?style=for-the-badge&logo=mysql" alt="MySQL Connector">
+  <img src="https://img.shields.io/badge/Lombok-1.18.32-brightgreen?style=for-the-badge&logo=lombok" alt="Lombok">
+  <img src="https://img.shields.io/badge/Flyway-10.10.0-blue?style=for-the-badge&logo=flyway" alt="Flyway">
+  <img src="https://img.shields.io/badge/Springdoc%20OpenAPI-2.6.0-brightgreen?style=for-the-badge&logo=openapi-initiative" alt="Springdoc OpenAPI">
+  <img src="https://img.shields.io/badge/java-17.0.11-blue.svg?style=for-the-badge&logo=openjdk&logoColor=black" alt="Java">
 </p>
+
+<h1 align="center">ForoHub - API de Gestión de Foros</h1>
 
 Versión: **1.0.0**  
 Fecha de lanzamiento: **14 de julio 2024**
@@ -134,23 +146,6 @@ o [Postman](https://www.postman.com/).
 ![Demo4](assets/Demo_Foro_4.gif)
 
 </details>
-
-## Construido Con 🛠️
-
-  <p align="center">
-    <img src="https://img.shields.io/badge/Spring%20Boot%20DevTools-3.3.1-brightgreen?style=for-the-badge&logo=spring" alt="Spring Boot DevTools">
-    <img src="https://img.shields.io/badge/Spring%20Boot-3.3.1-brightgreen?style=for-the-badge&logo=Spring" alt="Spring Boot">
-    <img src="https://img.shields.io/badge/Spring%20Web-3.3.1-brightgreen?style=for-the-badge&logo=spring" alt="Spring Web">
-    <img src="https://img.shields.io/badge/Spring%20Validation-3.3.1-brightgreen?style=for-the-badge&logo=spring" alt="Spring Validation">
-    <img src="https://img.shields.io/badge/Spring%20Security-3.3.1-brightgreen?style=for-the-badge&logo=spring-security" alt="Spring Security">
-    <img src="https://img.shields.io/badge/Java%20JWT-4.4.0-blue?style=for-the-badge&logo=json-web-tokens" alt="Java JWT">
-    <img src="https://img.shields.io/badge/Spring%20Data%20JPA-3.3.1-brightgreen?style=for-the-badge&logo=hibernate" alt="Spring Data JPA">
-    <img src="https://img.shields.io/badge/MySQL%20Connector-8.3.0-blue?style=for-the-badge&logo=mysql" alt="MySQL Connector">
-    <img src="https://img.shields.io/badge/Lombok-1.18.32-brightgreen?style=for-the-badge&logo=lombok" alt="Lombok">
-    <img src="https://img.shields.io/badge/Flyway-10.10.0-blue?style=for-the-badge&logo=flyway" alt="Flyway">
-    <img src="https://img.shields.io/badge/Springdoc%20OpenAPI-2.6.0-brightgreen?style=for-the-badge&logo=openapi-initiative" alt="Springdoc OpenAPI">
-    <img src="https://img.shields.io/badge/java-17.0.11-blue.svg?style=for-the-badge&logo=openjdk&logoColor=black" alt="Java">
-  </p>
 
 ## Hoja de Ruta 🗺️
 
