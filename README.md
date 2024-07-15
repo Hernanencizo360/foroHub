@@ -186,6 +186,7 @@ problema [aquí](https://github.com/Hernanencizo360/foroHub/issues).
 - **[Hernán Eladio Encizo](https://github.com/Hernanencizo360)** - _Trabajo inicial_
 
 ## Insignias 🎖️🏆️🎖️️
+![Badge](assets/Badge-Spring.png)
 
 ## Links de Interés 🔗
 
