@@ -140,10 +140,7 @@ o [Postman](https://www.postman.com/).
 <details>
   <summary>Mostrar contenido</summary>
 
-![Demo1](assets/Demo_Foro_1.gif)
-![Demo2](assets/Demo_Foro_2.gif)
-![Demo3](assets/Demo_Foro_3.gif)
-![Demo4](assets/Demo_Foro_4.gif)
+https://github.com/user-attachments/assets/c5c4857c-71f7-4c07-a045-a03cf9f332c0
 
 </details>
 
